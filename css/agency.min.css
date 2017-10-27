@@ -51,7 +51,9 @@ section h3.section-subheading {
     font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    word-spacing: 3px;
+    line-height: 2;
 }
 
 @media (min-width:768px) {
@@ -845,8 +847,9 @@ fieldset[disabled] .btn-xl:hover {
 }
 
 
-.resumeWrapper{
+#resumeWrapper{
  text-align: center;   
 }
+
 
 
